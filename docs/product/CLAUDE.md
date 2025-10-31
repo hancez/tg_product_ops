@@ -1,7 +1,54 @@
 # CLAUDE.md - Product Operations & Analysis Guide
 
-**Last Updated**: 2025-10-25
+**Last Updated**: 2025-10-29
 **Purpose**: Comprehensive guide for AI agents working on ShellAgent/Telegram Bot product analysis, user behavior research, and product optimization
+
+---
+
+## 🎯 Current GTM Strategy (Updated 2025-10-29)
+
+### **Solution-Led Growth Model**
+
+ShellAgent's primary Go-To-Market strategy focuses on validating whether professional content creator bots can drive platform adoption and bot creation.
+
+#### The Strategy
+```
+Professional Content Bots (8 marketing use cases)
+    ↓
+Users experience value through pre-built solutions
+    ↓
+Users want to create similar/customized bots
+    ↓
+Users adopt ShellAgent platform to become creators
+```
+
+#### The 8 Professional Marketing Bots
+These are **professionally created showcase bots** (not user-generated content for analysis):
+1. **Hook_Generator_Bot** (1965760104392110080) - Content hook generation
+2. **myshell_thumbmaker_bot** (1970046615507873792) - Thumbnail creation
+3. **BRoll_Generator_Bot** (1972858715723681792) - B-roll generation
+4. **XtoVideoScriptTransformer_Bot** (1974427421370437632) - Script transformation
+5. **xPostGenerator_Bot** (1974701461545680896) - X/Twitter post generation
+6. **CFLinkedinPostBot** (1974829619605544960) - LinkedIn post creation
+7. **Viral_Idea_Spark_Bot** (1975400765027258368) - Viral content ideation
+8. **X_Rival_Analysis_bot** (1975961906457870336) - Competitive analysis
+
+#### Key Analysis Focus
+When analyzing these bots, focus on:
+- **Users of these bots** (not the creators of these bots)
+- **Conversion funnel**: Bot User → Bot Creator (using ShellAgent platform)
+- **Engagement patterns**: Do users who experience these bots convert to creating their own?
+- **Remix adoption**: Is the remix feature driving bot creation?
+- **Retention**: Do users come back after first use?
+
+#### Latest Findings (2025-10-29)
+**Critical Discovery**:
+- ✅ 23.1% of marketing bot users are bot creators (strong number)
+- 🚨 BUT: 100% created their bots BEFORE using marketing bots (inverted funnel!)
+- ❌ True new-user → creator conversion rate: **0%**
+- 🎯 Real opportunity: 70 non-creator users with high engagement but no conversion
+
+**See**: `reports/GTM_STRATEGY_VALIDATION_REPORT.md` for complete analysis
 
 ---
 
@@ -18,9 +65,55 @@ This is a **product operations and analysis repository** for the ShellAgent Tele
 
 ---
 
+## 📊 Data Sources
+
+### Database Access
+For GTM strategy validation and bot user analysis, you have readonly access to the production MySQL database:
+
+**Connection Details**: See `.env` file (credentials provided)
+
+**Key Tables**:
+- `tg2app_bot_running_messages` - All user-bot interactions
+- `tg2app_tg_bots` - Bot metadata, creators, timestamps
+- `tg2app_bot_remix_relations` - Remix relationships between bots
+- `tg2app_bot_user_relations` - User-bot relationship data
+
+**Analysis Scripts** (in `scripts/`):
+- `gtm_conversion_analysis.py` - Main GTM conversion funnel analysis
+- `non_creator_analysis.py` - Analyzes non-converting users
+- `funnel_analysis.py` - Legacy funnel analysis
+- `find_bot_creators.py` - Identifies bot creators
+
+**Latest Analysis Results** (in `data/latest_results/`):
+- `marketing_bot_users.csv` - All 91 users of marketing bots
+- `bot_creators.csv` - 21 users who created bots
+- `conversion_timeline.csv` - Timeline analysis showing inverted funnel
+- `non_creator_engagement.csv` - 70 users who didn't convert
+- `bot_popularity_non_creators.csv` - Which bots non-creators use
+
+### API Access
+For querying conversation history and user data:
+
+See `query.md` for API endpoint examples using curl commands.
+
+---
+
 ## 🎯 Primary Use Cases
 
-### 1. **User Behavior Analysis & Churn Investigation**
+### 1. **GTM Strategy Validation** ⭐ NEW PRIMARY FOCUS
+Analyzing the effectiveness of Solution-Led Growth strategy:
+- Do marketing bots drive new creator acquisition?
+- What's the actual conversion funnel?
+- Why aren't engaged users converting?
+- Is Remix feature working as a conversion bridge?
+
+**Key Files**:
+- `reports/GTM_STRATEGY_VALIDATION_REPORT.md` - Complete analysis (2025-10-29)
+- `scripts/gtm_conversion_analysis.py` - Main analysis script
+- `scripts/non_creator_analysis.py` - Non-converter deep dive
+- `CLAUDE.md` - This file (GTM strategy overview)
+
+### 2. **User Behavior Analysis & Churn Investigation**
 Analyzing the 276 user sessions to identify:
 - Where users drop off in the funnel
 - Why users abandon bot creation or usage
