@@ -1,0 +1,25 @@
+﻿Name,Bot,Bot Link,创作阶段分类,功能分类,对标产品/效果,平台分类,说明
+Youtube Rival Analyzer Bot,,,调研阶段,页面分析,https://vidiq.com/features/competitors/,YouTube,输入一个或多个竞对YouTube频道的链接，Bot自动分析他们的频道，近期表现最好的视频、使用的关键词、封面风格和标题模式
+Viral Idea Spark Bot,@Viral_Idea_Spark_Bot,https://t.me/Viral_Idea_Spark_Bot,选题阶段,搜索总结,https://trendspark.live/,通用,输入你的领域（如“AI” “美食”），它帮你监控并为你推送TikTok、X、Ins上，和你领域相关的的热门话题、挑战，告诉你最近可以结合什么热点、可以做什么热点选题
+X Hook Generator Bot,"@Hook_Generator_Bot
+@Aillen_XHook_bot","https://t.me/Hook_Generator_Bot
+https://t.me/Aillen_XHook_bot",内容制作阶段,生文案,https://www.copy.ai/tools/hook-generator,X,输入一个核心观点或选题，它会基于多种病毒式传播心理学模型，一键生成10个极具吸引力的X帖子开头
+Content Summarizer Bot,,,内容制作阶段,"文案改写, 视频转文字",https://www.reddit.com/r/n8n/comments/1luu4iq/i_built_an_n8n_workflow_to_convert_web_articles/,通用,输入任何长视频链接或长文章链接，Bot迅速总结核心要点，并转换成适合发在X的短文案
+YouTube Thumbnail Bot,@myshell_thumbmaker_bot,https://t.me/myshell_thumbmaker_bot,内容制作阶段,生图,https://pikzels.com/,YouTube,用户输入caption、或上传图片+输入caption，生成符合平台爆款逻辑的Youtube封面图
+Carousel Post Bot,,,内容制作阶段,生图,https://postnitro.ai/zh,"Ins, LinkedIn",输入一段文字或文章，选择模板和品牌色，自动设计成多页、图文并茂、视觉风格统一的轮播图（Carousel）
+Meme Generator Bot,@CfMemeBot,https://t.me/CfMemeBot,内容制作阶段,生图,https://supermeme.ai/,通用,用户输入想法或关键词，Bot可以基于用户文字内容匹配合适的meme图片，或时下最流行的Meme模板，快速生成一个有趣的meme图
+Content Repurposing Bot：Long Video to Short Video,,,内容再利用,视频处理,https://www.reddit.com/r/n8n/comments/1k4njod/how_i_automated_repurposing_youtube_videos_to/,"TikTok, YouTube",上传一个长视频（如YouTube视频），它自动识别出视频中的“金句”或“精彩片段”，自动剪辑成多个适合TikTok/Shorts/Reels的竖屏短视频，并智能配上字幕。
+B-Roll Generator Bot,@BRoll_Generator_Bot,https://t.me/BRoll_Generator_Bot,内容制作阶段,生视频,https://www.kapwing.com/ai/b-roll-generator,YouTube,用户直接输入需要的B-Roll片段，帮用户生成合适的B-Roll素材，或用户上传视频，自动匹配需要B-Roll的地方并生成素材片段
+X Rival Analyzer Bot,@X_Rival_Analysis_bot,https://t.me/X_Rival_Analysis_bot,调研阶段,页面分析,https://www.rivaliq.com/free-social-media-analytics/twitter-head-to-head/,X,输入一个或多个竞对X账号的链接，Bot自动分析他们的频道，近期表现最好的post、使用的关键词、文案风格和内容模式
+Ins Rival Analyzer Bot,,,调研阶段,页面分析,https://www.rivaliq.com/free-social-media-analytics/instagram-head-to-head/,Ins,输入一个或多个竞对Ins账号的链接，Bot自动分析他们的频道，近期表现最好的图片/视频、使用的关键词、图片/视频风格和内容模式
+TikTok Rival Analyzer Bot,,,调研阶段,页面分析,https://www.rivaliq.com/free-social-media-analytics/tiktok-head-to-head/,LinkedIn,输入一个或多个竞对TikTok账号的链接，Bot自动分析他们的频道，近期表现最好的Post、使用的关键词、视频风格和内容模式
+Topic Generator Bot,@Topic_generator8_bot,https://t.me/Topic_generator8_bot,选题阶段,搜索总结,https://www.hootsuite.com/social-media-tools/content-ideas-generator?srsltid=AfmBOoq9plM3gbMnOX2BPxQF8t7rCdR3GdFLXrJU4Hh6KWrRWn_LjjZG,通用,输入一个领域或关键词，Bot通过抓取社交媒体上的热门讨论、搜索趋势等，搜索整理网友对该领域话题好奇的问题，自动生成 10-20 个选题建议，并附上参考链接
+X Post Generator Bot,@xPostGenerator_Bot,https://t.me/xPostGenerator_Bot,内容制作阶段,生文案,https://predis.ai/social-media-post-generator/,X,用户提供5篇想参考风格的 X Post 文案，Bot学习并理解这些文案的语言风格，用户输入想要写的选题（可能是一个关键词或几句话的想法），Bot自动生成3-5个不同风格的、完整的 X Post 文案
+LinkedIn Post Generator Bot,@CFLinkedinPostBot,"https://t.me/CFLinkedinPostBot ",内容制作阶段,生文案,https://predis.ai/social-media-post-generator/,LinkedIn,用户提供5篇想参考风格的LinkedIn Post 文案，Bot学习并理解这些文案的语言风格，用户输入想要写的选题（可能是一个关键词或几句话的想法），Bot自动生成3-5个不同风格的、完整的LinkedIn Post文案
+X to LinkedIn Post Transformer Bot,,,内容再利用,文案改写,https://reepl.io/free-tools/linkedin-post-twitter-threads,"LinkedIn, X",用户输入已写好的 X Post 文案，它提炼出 X Post 的核心观点，并根据LinkedIn平台文案的最佳实践，改写为适合 LinkedIn 受众的长文案
+X to Video Script Transformer Bot,@XtoVideoScriptTransformer_Bot,https://t.me/XtoVideoScriptTransformer_Bot,内容再利用,文案改写,https://reepl.io/free-tools/linkedin-post-twitter-threads,"TikTok, X",用户输入已写好的 X Post 文案，Bot提炼出 X Post 的核心观点，并根据短视频口播的最佳实践，改写为短视频平台（如 TikTok、Ins Reels）受众喜好的口播脚本
+YouTube Clickbait Title Generator Bot,@youtube_clickbait_title_bot,https://t.me/youtube_clickbait_title_bot,内容制作阶段,生文案,https://www.hootsuite.com/social-media-tools/ai-caption-generator-social-media?srsltid=AfmBOoq3G68CTdKPiNgscwL2Qt2Qt4OBMt8hTFOgHFfv839HDCEdHf2f,YouTube,用户输入关键词或视频脚本，Bot一键生成10个符合爆款公式和YouTube平台规则的视频标题
+YouTube Video Description Generator Bot,@YouTube_Video_Text_Bot,https://t.me/YouTube_Video_Text_Bot,内容制作阶段,生文案,https://vidiq.com/ai-description-generator/,YouTube,用户输入关键词或视频脚本，机器人自动生成专业且优化的 YouTube 视频描述，包含关键词、时间戳、相关信息、CTA等
+Vertical Thumbnail Generator Bot,@myshell_vertical_thumbnail_bot,https://t.me/myshell_vertical_thumbnail_bot,内容制作阶段,生图,https://pikzels.com/,TikTok,用户可以选择两种模式：一种是输入文字或图片加描述，自动生成适合短视频平台的竖版封面；另一种是上传横版封面，Bot自动调整排版并裁剪生成适合短视频平台的竖版封面
+Content Repurposing Bot：Video to Copy,@CRBVideotoCopy_bot,https://t.me/CRBVideotocopy_bot,内容再利用,视频转文字,https://www.reddit.com/r/n8n/comments/1lvlb8n/i_built_a_content_repurposing_system_that_turns/,"LinkedIn, X, YouTube",上传一个视频内容，自动将视频核心观点改写成适合X的短文案 或 适合LinkedIn的长文案（用户可选择）
+Content Repurposing Bot：Long Copy to Short Copy,,,内容再利用,"文案改写, 视频转文字",,X,上传已有的博客文章或视频脚本，它自动拆解成10条可以在X上发布的推文
